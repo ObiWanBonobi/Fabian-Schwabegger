@@ -14,33 +14,39 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: whitesmoke;
+    color: rgb(95, 95, 95);
     font-family: 'Exo 2', sans-serif;
+    background-color: black;
 }
 
 /* Header */
 header {
-    background-color: black;
-    color: white;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+}
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 /* Main content */
 main {
-    background-color: darkgrey;
-    color: black;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: black;
-    color: white;
-
+    text-align: center;
+    width: 100%;
 }
