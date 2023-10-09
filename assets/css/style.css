@@ -33,26 +33,24 @@ header a {
     color: inherit;
 }
 
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
 #menu {
-    display: flex;
-    flex-direction: row;
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
 #menu > li {
-    padding: 10%;
+    margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
-
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
 }
 
 /* Main content */
