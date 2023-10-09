@@ -40,12 +40,14 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    font-size: 5vw;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    background-color: black;
 }
 
 #menu > li {
@@ -64,6 +66,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    background-color: black;
 }
 
 /* Nav toggle */
@@ -83,10 +86,38 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 44px;
 }
 
 /* Footer */
 footer {
     text-align: center;
     width: 100%;
+}
+
+/* Media query: tablet and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    h1 {
+        font-size: 4vmin;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
