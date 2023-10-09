@@ -33,6 +33,16 @@ header a {
     color: inherit;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 h1 {
     text-transform: uppercase;
     text-align: center;
