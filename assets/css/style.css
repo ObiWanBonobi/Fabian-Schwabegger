@@ -34,9 +34,15 @@ header a {
 }
 
 #menu {
+    display: flex;
+    flex-direction: row;
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+}
+
+#menu > li {
+    padding: 10%;
 }
 
 .active {
