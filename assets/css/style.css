@@ -30,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 3.6vmin;
 }
 
 header a {
@@ -40,13 +41,12 @@ header a {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #3a3a3a;
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     list-style-type: none;
 }
 
@@ -64,7 +64,7 @@ nav {
     background-color: black;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -79,16 +79,12 @@ nav {
     display: none;
 }
 
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
 /* Main content */
 main {
     background-color: black;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 30px;
 }
 
 /* Footer */
@@ -129,12 +125,11 @@ main {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
+        font-size: 3.6vmin;
         margin: 0 0.5rem;
     }
 
     main {
-        margin-top: 79px;
+        margin-top: 55px;
     }
 }
