@@ -57,6 +57,10 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#menu a:hover {
+    border-bottom: 1px solid #7b7b7b;
+}
+
 nav {
     position: absolute;
     width: 100%;
