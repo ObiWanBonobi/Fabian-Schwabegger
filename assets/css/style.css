@@ -22,15 +22,14 @@ body {
 /* Header */
 header {
     background-color: black;
-    padding: 0 1rem;
+    padding: 0.5rem 0.5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 3.6vmin;
+    font-size: 4vmin;
 }
 
 header a {
@@ -65,7 +64,6 @@ nav {
     width: 100%;
     left: 0;
     padding: 0.5rem 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -84,7 +82,14 @@ main {
     background-color: black;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 30px;
+    margin-top: 70px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/stockphoto.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -104,6 +109,10 @@ main {
 
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    header {
+        font-size: 2vmax;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -123,13 +132,8 @@ main {
     .nav-toggle-label {
         display: none;
     }
-
-    #logo {
-        font-size: 3.6vmin;
-        margin: 0 0.5rem;
-    }
-
+    
     main {
-        margin-top: 55px;
+        margin-top: 60px;
     }
 }
