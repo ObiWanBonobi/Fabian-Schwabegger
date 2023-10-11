@@ -19,29 +19,32 @@ body {
     background-color: black;
 }
 
+h1 {
+    color: #3a3a3a;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
 /* Header */
 header {
     background-color: black;
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 4vmin;
+    font-size: 5vmin;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #3a3a3a;
 }
 
 #menu {
@@ -92,6 +95,18 @@ main {
     background: url("../images/stockphoto.jpg") no-repeat center center/cover;
 }
 
+#cover-text {
+    /*final rgba value sets opacity to semi-transparent */
+    background-color: rgba(170, 170, 170, 0.4);
+    font-size: 130%;
+    color: #1e1e1e;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    min-height: 90px;
+    padding-bottom: 6px;
+}
+
 /* Footer */
 #socials {
     text-align: center;
@@ -110,7 +125,7 @@ main {
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
     header {
-        font-size: 2vmax;
+        font-size: 4vmin;
     }
 
     nav {
@@ -135,5 +150,33 @@ main {
     
     main {
         margin-top: 60px;
+    }
+
+    /* Hero text */
+    #cover-text {
+        width: 70%;
+        padding-top: 10px;
+        margin-left: 40px;
+}
+
+/* Media query: tablet and larger (1440px and up) */
+@media screen and (min-width: 1440px) {
+    /* Hero text */
+    #cover-text {
+        width: 40%;
+        min-height: 100px;
+        padding-top: 15px;
+        margin-left: 100px;
+    }
+}
+
+/* Media query: tablet and larger (2560px and up) */
+@media screen and (min-width: 2560px) {
+    /* Hero text */
+    #cover-text {
+        width: 25%;
+        min-height: 100px;
+        padding-top: 15px;
+        margin-left: 250px;
     }
 }
