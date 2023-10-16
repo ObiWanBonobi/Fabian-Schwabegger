@@ -14,13 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: rgb(95, 95, 95);
+    color: rgb(120, 120, 120);
     font-family: 'Exo 2', sans-serif;
     background-color: black;
 }
 
 h1 {
-    color: #3a3a3a;
+    color: rgb(100, 100, 100);;
 }
 
 h1, h2, h3 {
@@ -39,7 +39,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 5vmin;
+}
+
+.small-logo {
+    display:inline-block;
+}
+
+.big-logo {
+    display:none;
 }
 
 header a {
@@ -53,12 +60,13 @@ header a {
 }
 
 .active {
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(32, 32, 32));
-    border-radius: 8%;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(48, 48, 48));
+    border-radius: 6px;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #7b7b7b;
+    border-bottom: 1px solid rgb(120, 120, 120);;
+    border-radius: 6px;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -118,7 +126,7 @@ main {
 }
 
 #socials i {
-    font-size: 160%;
+    font-size: 150%;
     padding: 5%;
     color: #3a3a3a;
 }
@@ -160,7 +168,6 @@ main {
         background: url("../images/stockphoto.jpg") no-repeat center center/cover;
     }
     
-
     /* Hero text */
     #cover-text {
         width: 70%;
@@ -170,8 +177,16 @@ main {
 
 /* Media query: tablet and larger (1440px and up) */
 @media screen and (min-width: 1440px) {
+    .small-logo {
+        display: none;
+    }
+    
+    .big-logo {
+        display: inline-block;
+    }
+
     /* Hero text */
-    #cover-text {
+    .cover-text {
         width: 40%;
         min-height: 100px;
         padding-top: 15px;
@@ -188,4 +203,5 @@ main {
         padding-top: 15px;
         margin-left: 250px;
     }
+}
 }
