@@ -17,7 +17,6 @@ body {
     color: rgb(120, 120, 120);
     font-family: 'Exo 2', sans-serif;
     background-color: black;
-    margin-bottom:50px;
 }
 
 h1 {
@@ -40,12 +39,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: calc(3 * (0.5vw + 0.5vh));
 }
 
  /* Will change logo name from FS on small screens to Fabien Schwabegger on big screens*/
 .small-logo {
     display:inline-block;
-    font-size: 12vmin;
 }
 
 .big-logo {
@@ -60,7 +59,6 @@ header a {
 #menu {
     letter-spacing: 3px;
     list-style-type: none;
-    font-size: 5vmin;
 }
 
 .active {
@@ -82,10 +80,6 @@ nav {
     padding: 0.5rem 1rem;
     display: none;
     top: 100%;
-}
-
-.fa-solid {
-    font-size: 8vmin;
 }
 
 /* Nav toggle */
@@ -141,7 +135,7 @@ main {
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
     header {
-        font-size: 4vmin;
+        font-size: 3.7vmin;
     }
 
     nav {
@@ -164,10 +158,6 @@ main {
         display: none;
     }
     
-    main {
-        margin-top: 60px;
-    }
-
     /*hero picture*/
     #hero {
         height: 60vmin;
@@ -182,8 +172,12 @@ main {
         margin-left: 40px;
 }
 
-/* Media query: tablet and larger (1440px and up) */
-@media screen and (min-width: 1440px) {
+/* Media query: tablet and larger (1255px and up) */
+@media screen and (min-width: 1255px) {
+    header {
+        padding: 0rem 2%;
+    }
+
      /* Will change logo name from FS on small screens to Fabien Schwabegger on big screens*/
     .small-logo {
         display: none;
@@ -191,6 +185,8 @@ main {
     
     .big-logo {
         display: inline-block;
+        font-size: 5.4vmin;
+        padding: 15px 0;
     }
 
     /* Hero text */
