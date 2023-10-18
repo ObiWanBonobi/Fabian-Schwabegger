@@ -121,20 +121,14 @@ main {
 
 /* Contact page*/
 #signup {
-    padding-top: 2vmax;
-    font-size: 2.5vmax;
-}
-
-#form_paragraph {
-    padding: 0 5vmin;
-}
-
-input, label {
-    justify-content: center;
+    padding: 3vmax 5vmin 0 5vmin;
+    font-size: 2vmax;
 }
 
 input {
-    width: 70%;
+    width: 70vmin;
+    padding: 5px 3px;
+    margin-top: 10px;
 }
 
 /* Footer */
@@ -190,6 +184,12 @@ input {
         padding-top: 10px;
         margin-left: 40px;
 }
+
+/* Contact page*/
+#signup {
+    font-size: 2.5vmax;
+}
+
 
 /* Media query: tablet and larger (1255px and up) */
 @media screen and (min-width: 1255px) {
