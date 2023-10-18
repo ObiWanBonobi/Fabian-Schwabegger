@@ -120,7 +120,7 @@ main {
 }
 
 /* Contact page*/
-#signup {
+#signup-form {
     padding: 3vmax 5vmin 0 5vmin;
     font-size: 2vmax;
 }
@@ -130,7 +130,7 @@ input, textarea {
     padding: 5px 3px;
     margin-top: 10px;
     font-size: 2vmax;
-    font-family: 'Exo 2', sans-serif;
+    font-family: inherit;
 }
 
 /* Footer */
@@ -188,7 +188,16 @@ input, textarea {
     }
 
     /* Contact page*/
-    input {
+    #signup-form > h2 {
+        font-size: 160%;
+    }
+
+    #signup-form > p {
+        font-size: 110%;
+        padding: 10px 50px;
+    }
+
+    input, textarea {
         width: 500px;
     }
 }
