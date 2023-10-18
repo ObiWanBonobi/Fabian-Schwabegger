@@ -149,6 +149,25 @@ textarea:focus {
     box-shadow: 0 0 8px #585858;
 }
 
+button {
+    background-color: rgba(5, 5, 5);
+    color: rgb(130, 130, 130);
+    border: 2px solid rgb(35, 35, 35);
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+#send_button {
+    font-size: 110%;
+    padding: 5px 10px 5px 10px;
+}
+
+#reset_button {
+    font-size: 70%;
+    padding: 2.5px 5px 2.5px 5px;
+    margin-right: 10px;
+}
+
 /* Footer */
 #socials {
     padding: 15px 0;
