@@ -94,8 +94,11 @@ main {
     background-color: black;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    padding-top: 15vmin;
     text-align: center;
+}
+
+#index_main {
+    padding-top: 10vmin;
 }
 
 /* Hero section */
@@ -119,7 +122,7 @@ main {
 
 /* Contact page*/
 #signup-form {
-    padding: 0 5% 0 5%;
+    padding: 15vmin 5% 0 5%;
 }
 
 #form_paragraph {
