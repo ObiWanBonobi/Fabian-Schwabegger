@@ -155,6 +155,7 @@ button {
     border: 2px solid rgb(35, 35, 35);
     border-radius: 5px;
     font-family: inherit;
+    margin-top: 5px;
 }
 
 #send_button {
@@ -224,7 +225,7 @@ button {
     }
 
     #form_paragraph {
-        font-size: 110%;
+        font-size: 100%;
         padding: 10px 50px;
         width: 800px;
         margin-left:auto;
@@ -235,6 +236,17 @@ button {
     textarea {
         font-size: 100%;
         width: 500px;
+    }
+
+    #send_button {
+        font-size: 110%;
+        padding: 10px 15px 10px 15px;
+    }
+    
+    #reset_button {
+        font-size: 80%;
+        padding: 5px 10px 5px 10px;
+        margin-right: 20px;
     }
 }
 
