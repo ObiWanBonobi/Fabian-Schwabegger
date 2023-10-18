@@ -130,15 +130,11 @@ main {
 }
 
 input, label {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-left: 2vmax;
+    justify-content: center;
 }
 
 input {
-    width: 90%;
-    text-align: center;
+    width: 70%;
 }
 
 /* Footer */
