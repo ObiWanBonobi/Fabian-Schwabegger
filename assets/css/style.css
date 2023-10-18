@@ -125,10 +125,12 @@ main {
     font-size: 2vmax;
 }
 
-input {
+input, textarea {
     width: 70vmin;
     padding: 5px 3px;
     margin-top: 10px;
+    font-size: 2vmax;
+    font-family: 'Exo 2', sans-serif;
 }
 
 /* Footer */
@@ -189,7 +191,6 @@ input {
     input {
         width: 500px;
     }
-
 }
 
 /* Media query: tablet and larger (1255px and up) */
