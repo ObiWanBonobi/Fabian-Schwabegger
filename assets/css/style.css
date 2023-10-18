@@ -200,7 +200,12 @@ textarea:focus {
     }
 
     /* Contact page*/
+    #signup-form {
+        font-size: 120%;
+    }
+
     #form_paragraph {
+        font-size: 110%;
         padding: 10px 50px;
         width: 800px;
         margin-left:auto;
@@ -209,6 +214,7 @@ textarea:focus {
 
     input,
     textarea {
+        font-size: 100%;
         width: 500px;
     }
 }
