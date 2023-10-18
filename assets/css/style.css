@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: rgb(120, 120, 120);
+    color: rgb(150, 150, 150);
     font-family: 'Exo 2', sans-serif;
     background-color: black;
 }
@@ -129,6 +129,16 @@ input, textarea {
     padding: 5px 3px;
     margin-top: 10px;
     font-family: inherit;
+    background-color: black;
+    border: ridge;
+    border-color: rgb(14, 14, 14, 0.3);
+    font-weight: 500;
+}
+
+input:focus, textarea:focus {
+    outline: none !important;
+    border:1px solid rgb(60, 60, 60);
+    box-shadow: 0 0 10px #585858;
 }
 
 /* Footer */
@@ -182,6 +192,10 @@ input, textarea {
     }
 
     /* Contact page*/
+    #signup-form {
+        padding-top: 90px;
+    }
+
     #signup-form > p {
         padding: 10px 50px;
     }
@@ -194,7 +208,7 @@ input, textarea {
 /* Media query: tablet and larger (1255px and up) */
 @media screen and (min-width: 1255px) {
     header {
-        padding: 0rem 2%;
+        padding: 0 2%;
     }
 
     /* Will change logo name from FS on small screens to Fabien Schwabegger on big screens*/
@@ -204,7 +218,7 @@ input, textarea {
 
     .big-logo {
         display: inline-block;
-        font-size: 5.4vmin;
+        font-size: 4.5vmin;
         padding: 15px 0;
     }
 
