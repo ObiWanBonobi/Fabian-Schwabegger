@@ -111,8 +111,7 @@ main {
 }
 
 .cover-text {
-    /*final rgba value sets opacity to semi-transparent */
-    background-color: rgb(21, 21, 21, 0.7);
+    background-color: rgb(15, 15, 15);
     color: #bababa;
     font-size:75%;
     font-weight: 500;
@@ -299,7 +298,7 @@ footer {
     .cover-text {
         width: 1150px;
         min-height: 100px;
-        padding-top: 15px;
+        padding: 15px;
     }
 }
 
