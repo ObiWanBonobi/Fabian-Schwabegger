@@ -105,7 +105,7 @@ main {
 }
 
 /* Hero section */
-#hero-img {
+.hero-img {
     height: auto;
     width: 100%;
 }
@@ -217,9 +217,13 @@ button {
     /* Hero text */
     #cover-text {
         width: 70%;
-        padding-top: 10px;
+        padding: 10px 15px;
         margin: 0 0 30px 40px;
         font-size: 110%;
+    }
+
+    #cover-text h3 {
+        font-size: 160%;
     }
 
     /* Contact page*/
