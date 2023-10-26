@@ -110,7 +110,7 @@ main {
     width: 100%;
 }
 
-#cover-text {
+.cover-text {
     /*final rgba value sets opacity to semi-transparent */
     background-color: rgb(21, 21, 21, 0.7);
     color: #bababa;
@@ -121,7 +121,7 @@ main {
     border-radius: 10px;
 }
 
-#cover-text p {
+.cover-text p {
     padding: 5px 10px;
 }
 
@@ -189,6 +189,7 @@ button {
 footer {
     border-top: 2px solid rgb(26, 26, 26);
     font-size: 135%;
+    margin-top: 40px;
 }
 
 #socials {
@@ -227,14 +228,14 @@ footer {
     }
 
     /* Hero text */
-    #cover-text {
+    .cover-text {
         width: 75%;
         padding: 10px 15px;
         margin: auto;
         font-size: 110%;
     }
 
-    #cover-text h3 {
+    .cover-text h3 {
         font-size: 160%;
     }
 
@@ -291,7 +292,7 @@ footer {
     }
 
     /* Hero text */
-    #cover-text {
+    .cover-text {
         width: 1150px;
         min-height: 100px;
         padding-top: 15px;
@@ -302,7 +303,7 @@ footer {
 @media screen and (min-width: 2560px) {
 
     /* Hero text */
-    #cover-text {
+    .cover-text {
         width: 1300px;
         min-height: 100px;
         padding-top: 15px;
