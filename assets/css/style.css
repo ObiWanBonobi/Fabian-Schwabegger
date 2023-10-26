@@ -186,7 +186,12 @@ button {
 }
 
 /* Footer */
+footer {
+    border-top: 2px solid rgb(26, 26, 26);
+}
+
 #socials {
+    font-size: 150%;
     padding: 15px 0;
     display: flex;
     justify-content: center;
@@ -194,8 +199,7 @@ button {
 }
 
 #socials i {
-    font-size: 150%;
-    padding-left: 5px;
+    padding-left:10px;
     color: rgb(100, 100, 100);
 }
 
