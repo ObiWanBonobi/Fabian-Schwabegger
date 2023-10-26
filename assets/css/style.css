@@ -155,6 +155,12 @@ div p a {
     padding: 3px;
 }
 
+.collaborations-images-maccas {
+    width: 40%;
+    height: auto;
+    padding: 3px;
+}
+
 .more-bottom-padding {
     padding-bottom: 50px;
 }
@@ -314,6 +320,10 @@ footer {
         width: 20%;
     }
 
+    .collaborations-images-maccas {
+        width: 25%;
+    }
+
     /* Contact page*/
     #signup-form {
         font-size: 120%;
@@ -388,6 +398,10 @@ footer {
 
     .collaborations-images {
         width: 30%;
+    }
+    
+    .collaborations-images-maccas {
+        width: 15%;
     }
 }
 
