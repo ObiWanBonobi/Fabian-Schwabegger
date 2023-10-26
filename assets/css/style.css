@@ -128,6 +128,11 @@ div p a {
     color: inherit;
 }
 
+/* Collaborations page */
+#collaborations-page {
+    display: grid;
+}
+
 /* Contact page*/
 .signup-form {
     padding: 15vmin 5% 0 5%;
