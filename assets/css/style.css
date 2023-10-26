@@ -131,17 +131,24 @@ div p a {
 /* Collaborations page */
 #collaborations-page {
     display: inline-block;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
-.picure-headers {
+.picture-headers {
     padding-bottom: 10px;
     font-size: 75%;
 }
 
 .collaborations-images {
-    width: 70%;
+    width: 85%;
     height: auto;
+    padding: 3px;
+}
+
+.collaborations-images-smaller {
+    width: 40%;
+    height: auto;
+    padding: 3px;
 }
 
 /* Contact page*/
@@ -273,12 +280,21 @@ footer {
         padding-top: 90px;
     }
 
-    .picure-headers {
-        font-size: 85%;
+    .picture-headers {
+        font-size: 110%;
     }
 
     .collaborations-images {
-        width: 40%;
+        width: 45%;
+    }
+
+    #fw-video-2 {
+        width: 70%;
+        height: auto;
+    }
+
+    .collaborations-images-smaller {
+        width: 20%;
     }
 
     /* Contact page*/
@@ -342,10 +358,10 @@ footer {
 
     /* Collaborations page */
     #collaborations-page {
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
-    .picure-headers {
+    .picture-headers {
         font-size: 150%;
     }
 
