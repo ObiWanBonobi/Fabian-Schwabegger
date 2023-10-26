@@ -125,6 +125,10 @@ main {
     padding: 5px 10px;
 }
 
+div p a {
+    color: inherit;
+}
+
 /* Contact page*/
 .signup-form {
     padding: 15vmin 5% 0 5%;
