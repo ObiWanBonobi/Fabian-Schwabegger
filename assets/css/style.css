@@ -114,11 +114,15 @@ main {
 .cover-text {
     background-color: rgb(15, 15, 15);
     color: #bababa;
-    font-size: 75%;
+    font-size: 80%;
     font-weight: 500;
     width: 100%;
     min-height: 90px;
     border-radius: 10px;
+}
+
+.cover-text h1 {
+    font-size: 130%;
 }
 
 .cover-text p {
@@ -333,11 +337,11 @@ footer {
         width: 75%;
         padding: 10px 15px;
         margin: auto;
-        font-size: 110%;
+        font-size: 130%;
     }
 
-    .cover-text h3 {
-        font-size: 160%;
+    .cover-text h1 {
+        font-size: 150%;
     }
 
     /* Collaborations page */
