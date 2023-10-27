@@ -178,7 +178,14 @@ div p a {
 /* Collaborations page */
 #collaborations-page {
     display: inline-block;
-    padding-top: 15vmin;
+    padding-top: 16vmin;
+}
+
+#collaborations-page img {
+    border-radius: 15px;
+    width: 85%;
+    height: auto;
+    padding: 3px;
 }
 
 .picture-header-1 {
@@ -186,46 +193,28 @@ div p a {
     font-size: 75%;
 }
 
-.picture-headers-2 {
+.picture-header-2 {
     padding-top: 100px;
+    font-size: 75%;
 }
 
-.collaborations-images {
-    width: 85%;
-    height: auto;
-    padding: 3px;
-}
-
-.collaborations-images-smaller,
-.collaborations-images-maccas {
-    width: 40%;
-    height: auto;
-    padding: 3px;
-}
-
-.logo-pics {
-    width: 40%;
-    height: auto;
-    background-color: rgb(60, 60, 60);
-    border-radius: 50%;
-    margin: 10px;
+.picture-header-3 {
+    padding-bottom: 30px;
+    font-size: 75%;
+    padding-top: 100px;
 }
 
 .bottom-margin {
     margin-bottom: 50px;
 }
 
-.border-radius {
-    border-radius: 15px;
-}
-
 /* Contact page*/
-.signup-form {
+#signup-form {
     padding: 15vmin 5% 0 5%;
 }
 
 .form_paragraph {
-    font-size: 80%;
+    font-size: 100%;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -356,35 +345,29 @@ footer {
     }
 
     #collaborations-page {
-        padding-top: 90px;
+        padding-top: 110px;
     }
 
-    .picture-header-1,
-    .picture-headers-2 {
-        font-size: 110%;
-    }
-
-    .collaborations-images {
+    #collaborations-page img {
         width: 45%;
     }
 
-    #fw-video-3 {
-        height: 1000px;
-        width: auto;
+    .picture-header-1,
+    .picture-header-2,
+    .picture-header-3 {
+        font-size: 110%;
     }
 
-    #fw-video-2 {
-        width: 70%;
+    #design-larger-1 img {
+        width: 93%;
         height: auto;
     }
 
-    .collaborations-images-smaller,
-    .logo-pics {
-        width: 20%;
-    }
-
-    .collaborations-images-maccas {
-        width: 25%;
+    #design-larger-2 img,
+    #design-larger-3 img,
+    #design-larger-4 img {
+        width: 80%;
+        height: auto;
     }
 
     /* Contact page*/
@@ -392,7 +375,7 @@ footer {
         font-size: 120%;
     }
 
-    #form_paragraph {
+    .form_paragraph {
         font-size: 100%;
         padding: 10px 50px;
         width: 800px;
@@ -462,16 +445,29 @@ footer {
     }
 
     .picture-header-1,
-    .picture-headers-2 {
+    .picture-header-2,
+    .picture-header-3 {
         font-size: 190%;
     }
 
-    .collaborations-images {
+    #collaborations-page img {
         width: 30%;
     }
 
-    .collaborations-images-maccas {
-        width: 15%;
+    #design-larger-1 img {
+        width: 80%;
+        height: auto;
+    }
+
+    #design-larger-2 img,
+    #design-larger-3 img {
+        width: 70%;
+        height: auto;
+    }
+
+    #design-larger-4 img {
+        width: 50%;
+        height: auto;
     }
 }
 
