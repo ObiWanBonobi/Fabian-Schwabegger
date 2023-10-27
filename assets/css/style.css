@@ -131,7 +131,7 @@ div p a {
 /* Collaborations page */
 #collaborations-page {
     display: inline-block;
-    padding-top: 60px;
+    padding-top: 15vmin;
 }
 
 .picture-header-1 {
@@ -149,12 +149,7 @@ div p a {
     padding: 3px;
 }
 
-.collaborations-images-smaller {
-    width: 40%;
-    height: auto;
-    padding: 3px;
-}
-
+.collaborations-images-smaller,
 .collaborations-images-maccas {
     width: 40%;
     height: auto;
@@ -169,8 +164,8 @@ div p a {
     margin: 10px;
 }
 
-.bottom-padding {
-    padding-bottom: 50px;
+.bottom-margin {
+    margin-bottom: 50px;
 }
 
 .border-radius {
@@ -306,10 +301,7 @@ footer {
         padding-top: 90px;
     }
 
-    .picture-header-1 {
-        font-size: 110%;
-    }
-
+    .picture-header-1,
     .picture-headers-2 {
         font-size: 110%;
     }
@@ -328,29 +320,13 @@ footer {
         height: auto;
     }
 
-    .collaborations-images-smaller {
+    .collaborations-images-smaller,
+    .logo-pics {
         width: 20%;
     }
 
     .collaborations-images-maccas {
         width: 25%;
-    }
-
-    #double-colab-header {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .double-colab-pics {
-        display: inline-flex;
-        justify-content: space-evenly;
-        width: 40%;
-        height: auto;
-        padding: 0 5% 0 5%;
-    }
-
-    .logo-pics {
-        width: 20%;
     }
 
     /* Contact page*/
@@ -417,10 +393,7 @@ footer {
         padding-top: 120px;
     }
 
-    .picture-header-1 {
-        font-size: 190%;
-    }
-
+    .picture-header-1,
     .picture-headers-2 {
         font-size: 190%;
     }
