@@ -67,13 +67,14 @@ header a {
     border-radius: 6px;
 }
 
-#menu a:hover {
+#menu a:hover,
+#collab-nav a:hover {
     border-bottom: 1px solid rgb(120, 120, 120);
     border-radius: 6px;
 }
 
 /* Navbar styles with dropdown toggle */
-nav {
+#menu-nav {
     position: absolute;
     background-color: black;
     width: 100%;
@@ -84,7 +85,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav {
+#nav-toggle:checked~#menu-nav {
     display: block;
 }
 
@@ -125,6 +126,50 @@ main {
 }
 
 div p a {
+    color: inherit;
+}
+
+/* Colab navigation */
+#collab-nav-menu {
+    position: absolute;
+    width: 100px;
+    left: 10%;
+    padding: 5px;
+    display: none;
+    top: 0;
+}
+
+/* Nav toggle */
+#collab-menu:checked~#collab-nav-menu {
+    display: contents;
+}
+
+#collab-menu {
+    display: none;
+}
+
+#nav-menu {
+    margin: 50px 0 0 10%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+}
+
+#nav-menu i {
+    font-size: 200%;
+}
+
+#collab-nav {
+    font-size: 120%;
+    width: 150px;
+    height: 215px;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 15px;
+}
+
+#collab-nav a {
     color: inherit;
 }
 
@@ -263,7 +308,7 @@ footer {
 
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    nav {
+    #menu-nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -297,6 +342,16 @@ footer {
     }
 
     /* Collaborations page */
+    #nav-menu i {
+        font-size: 350%;
+    }
+
+    #collab-nav {
+        font-size: 180%;
+        width: 220px;
+        height: 325px;
+    }
+
     #collaborations-page {
         padding-top: 90px;
     }
@@ -389,6 +444,16 @@ footer {
     }
 
     /* Collaborations page */
+    #nav-menu i {
+        font-size: 500%;
+    }
+
+    #collab-nav {
+        font-size: 180%;
+        width: 240px;
+        height: 330px;
+    }
+
     #collaborations-page {
         padding-top: 120px;
     }

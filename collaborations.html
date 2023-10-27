@@ -30,7 +30,7 @@
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
+        <nav id="menu-nav">
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="collaborations.html" class="active">Collaborations</a></li>
@@ -41,9 +41,26 @@
 
     <!--Main Section-->
     <main id="collaborations-page">
+        <section id="nav-menu">
+            <input type="checkbox" id="collab-menu" name="nav-toggle">
+            <label for="collab-menu"><i class="fa-solid fa-turn-down" style="color: #828282;"></i></label>
+            <nav id="collab-nav-menu">
+                <ul id="collab-nav">
+                    <li><a href="#fabio">Fabio Wibmer</a></li>
+                    <li><a href="#schaefchen">Scheafchen</a></li>
+                    <li><a href="#car-design">Car Designs</a></li>
+                    <li><a href="#mcdonalds">Mc Donalds</a></li>
+                    <li><a href="#logo-designs">Logo Desings</a></li>
+                    <li><a href="#whyat-design">Whyat Clothing</a></li>
+                    <li><a href="#glue-boys">Glue Boys</a></li>
+                    <li><a href="#Canyon-design">Canyon</a></li>
+                    <li><a href="#bikeflip-mural">BikeFlip</a></li>
+                </ul>
+            </nav>
+        </section>
         <section>
             <div>
-                <h2 class="picture-header-1">Fabio Wibmer's video artwork and clothing brand, sick</h2>
+                <h2 id="fabio" class="picture-header-1">Fabio Wibmer's video artwork and clothing brand, sick</h2>
                 <img id="fw-video-3" class="collaborations-images" src="assets/images/gta-fabio-wibmer.webp"
                     alt="Fabio Wibmer video design">
             </div>
@@ -92,7 +109,7 @@
                 </span>
             </div>
             <div>
-                <h2 class="picture-headers-2">Schaefchen car and clothing desings</h2>
+                <h2 id="schaefchen" class="picture-headers-2">Schaefchen car and clothing desings</h2>
                 <span>
                     <img class="collaborations-images border-radius" src="assets/images/schaefchen-design-1.webp"
                         alt="Schaefchen car design">
@@ -159,14 +176,14 @@
                 </span>
             </div>
             <div>
-                <h2 class="picture-headers-2 bottom-margin">Various car desings</h2>
+                <h2 id="car-design" class="picture-headers-2 bottom-margin">Various car desings</h2>
                 <span>
                     <img class="collaborations-images-smaller border-radius" src="assets/images/car-design.webp"
                         alt="Car design">
                 </span>
                 <span>
-                    <img class="collaborations-images-smaller border-radius"
-                        src="assets/images/car-design-2.webp" alt="Car design">
+                    <img class="collaborations-images-smaller border-radius" src="assets/images/car-design-2.webp"
+                        alt="Car design">
                 </span>
                 <span>
                     <img class="collaborations-images-smaller border-radius" src="assets/images/car-design-3.webp"
@@ -174,7 +191,7 @@
                 </span>
             </div>
             <div>
-                <h2 class="picture-headers-2 bottom-margin">Mc Donalds statue and car design</h2>
+                <h2 id="mcdonalds" class="picture-headers-2 bottom-margin">Mc Donalds statue and car design</h2>
                 <span>
                     <img class="collaborations-images-maccas border-radius"
                         src="assets/images/cynara-design-mcdonals.webp" alt="Mc Donalds statue">
@@ -197,7 +214,7 @@
                 </span>
             </div>
             <div>
-                <h2 class="picture-headers-2 bottom-margin">Various logo designs</h2>
+                <h2 id="logo-designs" class="picture-headers-2 bottom-margin">Various logo designs</h2>
                 <span>
                     <img class="logo-pics" src="assets/images/sick-logo.webp"
                         alt="Logo for Fabio Wibmer's clothing brand, sick">
@@ -232,7 +249,7 @@
                 </span>
             </div>
             <div>
-                <h2 class="picture-headers-2 bottom-margin">Whyat Clothing</h2>
+                <h2 id="whyat-design" class="picture-headers-2 bottom-margin">Whyat Clothing</h2>
                 <span>
                     <img class="collaborations-images-smaller border-radius" src="assets/images/whyat-clothing-3.webp"
                         alt="Whyat clothing design">
@@ -247,19 +264,19 @@
                 </span>
             </div>
             <div>
-                <h2 class="picture-headers-2 bottom-margin">Glue Boys Album cover</h2>
+                <h2 id="glue-boys" class="picture-headers-2 bottom-margin">Glue Boys Album cover</h2>
                 <span>
                     <img class="collaborations-images border-radius" src="assets/images/album-cover-glue-boys.webp"
                         alt="Glue boys album cover">
                 </span>
-                <h2 class="picture-headers-2 bottom-margin">Canyon bike design</h2>
+                <h2 id="Canyon-design" class="picture-headers-2 bottom-margin">Canyon bike design</h2>
                 <span>
                     <img class="collaborations-images border-radius" src="assets/images/canyon-guardian-angel.webp"
                         alt="Canyon mountain bike design">
                 </span>
             </div>
             <div class="bottom-margin">
-                <h2 class="picture-headers-2 bottom-margin">BikeFlip mural</h2>
+                <h2 id="bikeflip-mural" class="picture-headers-2 bottom-margin">BikeFlip mural</h2>
                 <span>
                     <img class="collaborations-images border-radius" src="assets/images/bikeflip-in-construction.webp"
                         alt="Bikeflip mural">
