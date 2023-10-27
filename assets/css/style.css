@@ -273,6 +273,7 @@ button {
     height: 250px;
     border-radius: 10px;
     max-width: 680px;
+    margin-bottom: 10px;
 }
 
 #form_send {
