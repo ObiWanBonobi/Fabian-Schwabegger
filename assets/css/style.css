@@ -129,7 +129,7 @@ div p a {
     color: inherit;
 }
 
-/* Colab navigation */
+/* Collab navigation */
 #collab-nav-menu {
     position: absolute;
     width: 100px;
@@ -139,7 +139,6 @@ div p a {
     top: 0;
 }
 
-/* Nav toggle */
 #collab-menu:checked~#collab-nav-menu {
     display: contents;
 }
@@ -150,8 +149,6 @@ div p a {
 
 #nav-menu {
     margin: 50px 0 0 10%;
-    width: 100%;
-    height: 100%;
     position: fixed;
     display: flex;
 }
@@ -171,6 +168,7 @@ div p a {
 
 #collab-nav a {
     color: inherit;
+    text-decoration: none;
 }
 
 /* Collaborations page */
