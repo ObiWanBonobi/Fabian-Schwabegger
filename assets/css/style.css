@@ -270,14 +270,15 @@ button {
 }
 
 #form_send {
-    padding-top: 150px;
-    font-size: 130%;
+    padding-top: 110px;
+    font-size: 120%;
 }
 
 #thank-you-img {
-    width: 70%;
+    width: 40%;
     height: auto;
-    max-width: 900px;
+    max-width: 400px;
+    padding-top: 30px;
 }
 
 /* Footer */
@@ -359,13 +360,14 @@ footer {
     }
 
     #design-larger-1 img {
-        width: 93%;
+        width: 90%;
         height: auto;
     }
 
     #design-larger-2 img,
     #design-larger-3 img,
-    #design-larger-4 img {
+    #design-larger-4 img,
+    #design-larger-5 img {
         width: 80%;
         height: auto;
     }
@@ -401,7 +403,8 @@ footer {
     }
 
     #form_send {
-        font-size: 170%;
+        font-size: 160%;
+        padding-top: 150px;
     }
 }
 
@@ -451,22 +454,19 @@ footer {
     }
 
     #collaborations-page img {
-        width: 30%;
+        width: 20%;
     }
 
     #design-larger-1 img {
-        width: 80%;
+        width: 60%;
         height: auto;
     }
 
     #design-larger-2 img,
-    #design-larger-3 img {
-        width: 70%;
-        height: auto;
-    }
-
-    #design-larger-4 img {
-        width: 50%;
+    #design-larger-3 img,
+    #design-larger-4 img,
+    #design-larger-5 img {
+        width: 45%;
         height: auto;
     }
 }
