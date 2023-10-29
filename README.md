@@ -4,11 +4,13 @@
 
 [Click on this link to visit the website](https://obiwanbonobi.github.io/PP1/)
 
+<br>
+
 # Content
 
 - [Introduction](#introduction)
-- [User experience](#user-experience)
-- [My vision for the website](#my-vision-for-the-website)
+    * [User experience](#user-experience)
+    * [My vision for the website](#my-vision-for-the-website)
 - [Features](#features)
    * [Navigation](#navigation)
    * [Footer](#footer)
@@ -19,12 +21,13 @@
    * [Contact send page](#contact-send-page)
 - [Future features](#future-features)
 - [Design](#design)
-   * [Font](#font)
-   * [Colour scheme](#colour-scheme)
 - [Technologies used](#technologies-used)
    * [Balsemiq](#balsemiq)
-- [Introduction](#introduction)
+- [Testing](#testing)
+    * [Validation HTML and CSS](#validation-html-and-css)
+- [Credits](#credits)
 
+<br>
 
 # Introduction
 
@@ -32,7 +35,7 @@ I embarked on the journey of creating a website for my partner, who is a graphic
 
 By crafting this online presence, I aim to assist in amplifying his reach and connecting him with a broader audience that appreciates the craftsmanship and ingenuity he brings to every project. It's a digital canvas where his talents can truly flourish, and I'm thrilled to contribute to this creative endeavor that continues to inspire us both.
 
-![readme cover image](assets/images/readme_images/black-chinchilla-product.webp)
+![readme cover image, Black Chinchilla product](assets/images/readme_images/black-chinchilla-product.webp)
 
 ## User experience
 
@@ -45,6 +48,7 @@ The layout is intuitive and visually appealing, making it easy to navigate throu
 
 Whether it's the captivating visuals or the carefully crafted text, I've strived to create a harmonious blend that provides valuable information. In addition, I've included a user-friendly contact form, and Fabian is committed to a swift response. I've placed a strong emphasis on accessibility to ensure that everyone, regardless of ability, can enjoy the site without barriers.
 
+<br>
 
 # Features
 
@@ -69,7 +73,7 @@ The footer is at the bottom of each page and it includes a link to Fabian's inst
 
 On the left top side in the Collaborations page, I've added a "go down" icon that navigates to different collabs in the page. This helps move around quicker and more clearly.
 
-![footer](assets/images/readme_images/Collab-navigation-tool.png)
+![Collab navigation](assets/images/readme_images/Collab-navigation-tool.png)
 
 ### Home page
 
@@ -96,6 +100,7 @@ I've kept the design of the home page simple.
 - It has a short thank you message with another desing.
 - It was the same layout as the other pages so you can easily navigate back to the other pages.
 
+<br>
 
 # Future features
 
@@ -106,32 +111,132 @@ I want to add javascript to all pages and make the whole site more interactive.
 - Add more collaborations
 - I want to improve the collaboration navigation
 
+<br>
+
 # Design
 
-### Font
-
-With the help of the Code Institute, Love running project, I got my font from google fonts.
+- <b>Font</b> : With the help of the Code Institute, Love running project, I got my font from [google fonts](https://fonts.google.com/)
+- <b>Icons</b> : Also with the help of the Love running project, I used the [Font Awesome](https://fontawesome.com/) website
+- <b>Favicon generator</b> : I made my own favicon with [this website](https://favicon.io/)
+- <b>Map</b> : I used [Google Maps](https://maps.google.com/) for the small map on the contact page
+- <b>Image resizing</b> : I used this [Image resizer](https://imageresizer.com/) website to change my images
+- <b>Gif</b> : I used [this website](https://ezgif.com/) to create a gif for my README
 
 
 ### Colour scheme
 
 I kept the colour scheme very simple, because I wanted Fabian's designs to pop out.
 
-![footer](assets/images/readme_images/color-scheme.png)
+![Colour Scheme](assets/images/readme_images/color-scheme.png)
 
+<br>
 
 # Technologies used
 
-The website is written in HTML and CSS only.
+- The website is written in HTML and CSS only
+- I did all my coding with the program VS Code, [Visual Studio Code](https://code.visualstudio.com/)
+- All my code was uploaded to [Github](https://github.com/), to my [Github account](https://github.com/ObiWanBonobi)
 
 ### Balsemiq
 
-The project started with Balsamiq, where I imagined the beginning of the website on all device sizes. I did end up deviating from the original imagination on balsemiq.
+<details>
+<summary>The project started with Balsamiq, where I imagined the beginning of the website on all device sizes. I did end up deviating from the original imagination on balsemiq.</summary>
 
-![footer](assets/images/readme_images/balsamiq-index-page.png)
+![Balsemiq](assets/images/readme_images/balsamiq-index-page.png)
 
-![footer](assets/images/readme_images/balsamiq-collaborations-page.png)
+![Balsemiq](assets/images/readme_images/balsamiq-collaborations-page.png)
 
-![footer](assets/images/readme_images/balsamiq-contact-page.png)
+![Balsemiq](assets/images/readme_images/balsamiq-contact-page.png)
 
-![footer](assets/images/readme_images/balsamiq-contact-send-page.png)
+![Balsemiq](assets/images/readme_images/balsamiq-contact-send-page.png)
+
+</details>
+
+<br>
+
+# Testing
+
+Every link on all pages got tested on several devices and webbrowsers. The contact form has been tested as well and works as it should.
+
+### Validation HTML and CSS
+
+<details>
+<summary>The home page had an initial error with the < footer > where I had put an < p > in a < ul ></summary>
+<img src="assets/images/readme_images/index.html-1st-test-with-error.png" name="Html index validation">
+<img src="assets/images/readme_images/issue-with-index.html.png" name="Html index validation">
+<img src="assets/images/readme_images/index.html-issue-fixed.png" name="Html index validation">
+<img src="assets/images/readme_images/index.html-fixed-and-validated.png" name="Html index validation">
+</details>
+
+<details>
+<summary>The collaborations page also had an initial error where I had put my collab navigation in a < section > instead of a < div ></summary>
+<img src="assets/images/readme_images/collaborations.html-1st-test-with-error.png" name="Html Collaborations validation">
+<img src="assets/images/readme_images/collaborations.html-issue.png" name="Html Collaborations validation">
+<img src="assets/images/readme_images/collaborations.html-issue-fixed.png" name="Html Collaborations validation">
+<img src="assets/images/readme_images/collaborations.html-page-fixed-and-validated.png" name="Html Collaborations validation">
+</details>
+
+<details>
+<summary>The contact page had no issues from the start</summary>
+<img src="assets/images/readme_images/contact.html-good-and-validated.png" name="Html Contact validation">
+</details>
+
+<details>
+<summary>The contact send page did not have any issues as well</summary>
+<img src="assets/images/readme_images/contact-send.html-good-and-validated.png" name="Html Contact send validation">
+</details>
+
+<details>
+<summary>The CSS file did not have any issues as well</summary>
+<img src="assets/images/readme_images/css-validation.png" name="CSS validation">
+</details>
+
+### Lighthouse test
+
+<details>
+<summary>The home page had an initial error where I had used < h3 > where I shoul've used a < h1 >. After I changed that it came back with this result :</summary>
+<img src="assets/images/readme_images/lighthouse-test-index.png" name="Lighthouse home validation">
+</details>
+
+<details>
+<summary>The collaborations page also had an initial error where I had used < h3 > where I shoul've used a < h1 >. After I changed that it came back with this result :</summary>
+<img src="assets/images/readme_images/lighthouse-test-collaborations.png" name="Lighthouse collaborations validation">
+</details>
+
+<details>
+<summary>The contact page didn't have any issues :</summary>
+<img src="assets/images/readme_images/lighthouse-test-contact.png" name="Lighthouse contact validation">
+</details>
+
+<details>
+<summary>The contact send page also didn't have any issues :</summary>
+<img src="assets/images/readme_images/lighthouse-test-contact-send.png" name="Lighthouse contact send validation">
+</details>
+
+### Testing on different devices
+
+I tested the deployed wedsite on several devices webbrowsers :
+- Iphone 14
+- Ipad gen 3
+- Google pixel 7
+- Samsung galaxy tab S6
+- HP envy 
+- PC build
+
+<br>
+
+- Google chrome
+- Microsoft edge
+- Apple Safari
+
+<br>
+
+# Credits
+
+- <b>Layout, contact form and code</b> : the navigation and footer layout, the contact form code and some of the basic code I partly got from the Code Institute learning program and projects, [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) and Coding Coffee House
+- <b>README</b>> : a bit of the layout from the Code Institute Coding club sample, and from Siobhan Gorman's project [Sourdough Bakes](https://github.com/siobhanlgorman/Sourdough-Bakes)
+- <b>README funtions</b> : got some ideas from cosmiccoincidence's [README](https://github.com/RE-SS3D/.github/blob/main/profile/README.md)
+- <b>Images</b> : All images come directly from Fabin Schwabegger
+- <b>Gif</b> : I got the gif in the readme idea from stumbling upon [this website](https://medium.com/@alenanikulina0/make-your-readme-better-with-images-and-gifs-b141bd54bff3)
+
+- <b>most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
