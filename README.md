@@ -17,10 +17,12 @@
    * [Collaborations page](#collaborations-page)
    * [Contact page](#contact-page)
    * [Contact send page](#contact-send-page)
-- [Introduction](#introduction)
-- [Introduction](#introduction)
-- [Introduction](#introduction)
-- [Introduction](#introduction)
+- [Future features](#future-features)
+- [Design](#design)
+   * [Font](#font)
+   * [Colour scheme](#colour-scheme)
+- [Technologies used](#technologies-used)
+   * [Balsemiq](#balsemiq)
 - [Introduction](#introduction)
 
 
@@ -94,3 +96,42 @@ I've kept the design of the home page simple.
 - It has a short thank you message with another desing.
 - It was the same layout as the other pages so you can easily navigate back to the other pages.
 
+
+# Future features
+
+I want to add javascript to all pages and make the whole site more interactive.
+- I want to add a zoom in feature for all pictures
+- I want to make a "entry" page with a large design that will take you to the main website when you first load the website
+- I want to make the pages move right to left when you go to the next page to the right. And left to right when you go to the previous page.
+- Add more collaborations
+- I want to improve the collaboration navigation
+
+# Design
+
+### Font
+
+With the help of the Code Institute, Love running project, I got my font from google fonts.
+
+
+### Colour scheme
+
+I kept the colour scheme very simple, because I wanted Fabian's designs to pop out.
+
+![footer](assets/images/readme_images/color-scheme.png)
+
+
+# Technologies used
+
+The website is written in HTML and CSS only.
+
+### Balsemiq
+
+The project started with Balsamiq, where I imagined the beginning of the website on all device sizes. I did end up deviating from the original imagination on balsemiq.
+
+![footer](assets/images/readme_images/balsamiq-index-page.png)
+
+![footer](assets/images/readme_images/balsamiq-collaborations-page.png)
+
+![footer](assets/images/readme_images/balsamiq-contact-page.png)
+
+![footer](assets/images/readme_images/balsamiq-contact-send-page.png)
