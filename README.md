@@ -1,7 +1,8 @@
 # Fabian Schwabegger
 
-[Click on this link to visit the website](https://obiwanbonobi.github.io/PP1/)
+![Home page gif](assets/gif/Home-page.gif)
 
+[Click on this link to visit the website](https://obiwanbonobi.github.io/PP1/)
 
 # Content
 
@@ -11,6 +12,9 @@
 - [Features](#features)
    * [Navigation](#navigation)
    * [Footer](#footer)
+   * [Collaborations navigation](#collaborations-navigation)
+   * [Home Page](#home-page)
+   * [Collaborations page](#collaborations-page)
 - [Introduction](#introduction)
 - [Introduction](#introduction)
 - [Introduction](#introduction)
@@ -24,6 +28,7 @@ I embarked on the journey of creating a website for my partner, who is a graphic
 
 By crafting this online presence, I aim to assist in amplifying his reach and connecting him with a broader audience that appreciates the craftsmanship and ingenuity he brings to every project. It's a digital canvas where his talents can truly flourish, and I'm thrilled to contribute to this creative endeavor that continues to inspire us both.
 
+![readme cover image](assets/images/readme_images/black-chinchilla-product.webp)
 
 ## User experience
 
@@ -47,12 +52,31 @@ The navitagion bar is always visible at the top of each page, for easy navigatio
 - I gave the navigation bar a barely visible line underneath to show a difference between navigation bar to the main section
 
 ![Navigation on small devices](assets/images/readme_images/navigation-on-small-device.png)
-![Navigation on small devices](assets/images/readme_images/navigation-on-medium-device.png)
-![Navigation on small devices](assets/images/readme_images/navigation-on-large-device.png)
+![Navigation on medium devices](assets/images/readme_images/navigation-on-medium-device.png)
+![Navigation on large devices](assets/images/readme_images/navigation-on-large-device.png)
 
 ### Footer
 
 The footer is at the bottom of each page and it includes a link to Fabian's instagram account. I gave the footer bar also a barely visible line above to show a difference between the footer and the main section.
 
-![Navigation on small devices](assets/images/readme_images/footer.png)
+![footer](assets/images/readme_images/footer.png)
+
+### Collaborations navigation
+
+On the left top side in the Collaborations page, I've added a "go down" icon that navigates to different collabs in the page. This helps move around quicker and more clearly.
+
+![footer](assets/images/readme_images/Collab-navigation-tool.png)
+
+### Home page
+
+I've kept the design of the home page simple. 
+- My train of thought was to have Fabian's designs to be the main attraction throughout the website. 
+- In the second paragraph, the collaborations bubble, I added a link to the collaborations page.
+
+### Collaborations page
+
+- Same as the home page, I wanted to keep Fabians desings the main attraction. 
+- On the left top side is a down arrow to navigate through fabians designs.
+- Every picture in each < div > is cropped to the same size, to keep the page looking clean.
+- I seperated some of the desings in different < div > so when they are shown on bigger screens, they stay together.
 
