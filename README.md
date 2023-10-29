@@ -124,12 +124,23 @@ I want to add javascript to all pages and make the whole site more interactive.
 - <b>Image resizing</b> : I used this [Image resizer](https://imageresizer.com/) website to change my images
 - <b>Gif</b> : I used [this website](https://ezgif.com/) to create a gif for my README
 
-
 ### Colour scheme
 
 I kept the colour scheme very simple, because I wanted Fabian's designs to pop out.
 
 ![Colour Scheme](assets/images/readme_images/color-scheme.png)
+
+<br>
+
+### Am I responsive
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-index.png)
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-collaborations.png)
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-contact.png)
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-contact-send.png)
 
 <br>
 
