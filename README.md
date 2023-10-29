@@ -15,6 +15,8 @@
    * [Collaborations navigation](#collaborations-navigation)
    * [Home Page](#home-page)
    * [Collaborations page](#collaborations-page)
+   * [Contact page](#contact-page)
+   * [Contact send page](#contact-send-page)
 - [Introduction](#introduction)
 - [Introduction](#introduction)
 - [Introduction](#introduction)
@@ -79,4 +81,16 @@ I've kept the design of the home page simple.
 - On the left top side is a down arrow to navigate through fabians designs.
 - Every picture in each < div > is cropped to the same size, to keep the page looking clean.
 - I seperated some of the desings in different < div > so when they are shown on bigger screens, they stay together.
+
+### Contact page
+
+- The contact page includes a form that can be filled out to get into contact with Fabian.
+- It also includes a map of where Fabian is based.
+- After you press the send button, you will be taken to a new page that says thank you.
+
+### Contact send page
+
+- This page will only show after you filled out the contact form.
+- It has a short thank you message with another desing.
+- It was the same layout as the other pages so you can easily navigate back to the other pages.
 
