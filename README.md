@@ -25,6 +25,8 @@
    * [Balsemiq](#balsemiq)
 - [Testing](#testing)
     * [Validation HTML and CSS](#validation-html-and-css)
+    * [Lighthouse test](#lighthouse-test)
+    * [Testing on devices and browsers](#testing-on-devices-and-browsers)
 - [Credits](#credits)
 
 <br>
@@ -169,7 +171,7 @@ Every link on all pages got tested on several devices and webbrowsers. The conta
 </details>
 
 <details>
-<summary>The collaborations page also had an initial error where I had put my collab navigation in a < section > instead of a < div ></summary>
+<summary>The collaborations page also had an initial error where I had put my collab navigation in a < section > which needed an header I ended up changing it to < aside ></summary>
 <img src="assets/images/readme_images/collaborations.html-1st-test-with-error.png" name="Html Collaborations validation">
 <img src="assets/images/readme_images/collaborations.html-issue.png" name="Html Collaborations validation">
 <img src="assets/images/readme_images/collaborations.html-issue-fixed.png" name="Html Collaborations validation">
@@ -213,7 +215,7 @@ Every link on all pages got tested on several devices and webbrowsers. The conta
 <img src="assets/images/readme_images/lighthouse-test-contact-send.png" name="Lighthouse contact send validation">
 </details>
 
-### Testing on different devices
+### Testing on devices and browsers
 
 I tested the deployed wedsite on several devices webbrowsers :
 - Iphone 14
@@ -231,6 +233,29 @@ I tested the deployed wedsite on several devices webbrowsers :
 
 <br>
 
+# Bug fixes
+
+- When I deployed the website for the first time with my facilitator David Calikes and fellow student Alihan Teker, the images weren't loading. We tried several "fixes" before getting to the correct bug fix :
+    * We changed the image format from webp to jpg, however that didn't work
+    * We checked on another device and webbrowser and it still didn't work
+    * We ended up realising that it had to do with my file path, this is where we noticed I had added a / infront of the assets/images/... file path
+- When I added a link to my collaborations page in the home page, I noticed it wasn't working. Turns out I had done the same thing as with the images. Accidentally added a / infront of the file path
+- When I was adding the navigation in the collaborations page I noticed that the Footer link that goes to Instagram stopped working. 
+    * I checked the code and didn't notice a mistake
+    * I then checked on dev tools where I noticed that the Main element when a full 100% down and it basically make the footer dissapear behind it.
+    * I went into my css file and noticed that I had set width and height to 100%. I changed those values and the footer was "visible" again
+- The paragraph in the contact page wasn't changing with my css demands. I had accidentally placed a # instead of a . infront of my class name for this paragraph.
+- I ended up changing the size for all images because they were taking too long to load. When I changed the images with the help of a website, I saved these images with the new name the website gave me, which had an space at the end of the name. So ofcourse it didn't work, I knew from the program that if you add a file with a space in it, it needs to be wrapped in " ". I ended up deleting the space.
+- some random bugs that I fixed with the help of [Stackoverflow](https://stackoverflow.com/) :
+    * The Lighthouse test was coming back a little lower and I didn't know why [this forum helped me realise it was my chrome extentions](https://stackoverflow.com/questions/54126343/how-to-fix-unchecked-runtime-lasterror-the-message-port-closed-before-a-respon)
+    * 
+
+<br>
+
+<b>I have not noticed any existing bugs, since I fixed all the existing ones.</b>
+
+<br>
+
 # Credits
 
 - <b>Layout, contact form and code</b> : the navigation and footer layout, the contact form code and some of the basic code I partly got from the Code Institute learning program and projects, [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) and Coding Coffee House
@@ -240,3 +265,9 @@ I tested the deployed wedsite on several devices webbrowsers :
 - <b>Gif</b> : I got the gif in the readme idea from stumbling upon [this website](https://medium.com/@alenanikulina0/make-your-readme-better-with-images-and-gifs-b141bd54bff3)
 
 - <b>most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
+
+- <b>Bug</b> : with the help of my facilitator David Calikes and fellow student Alihan Teker, we fixed a bug.
+
+- <b>Learning online</b> : 
+    * [This forum](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content) helped me understand the display funtion a little better.
+    * [This forum](https://stackoverflow.com/questions/42273295/how-to-apply-linear-gradient-on-an-input-on-its-border-bottom-only) helped me how to use gradiant.
