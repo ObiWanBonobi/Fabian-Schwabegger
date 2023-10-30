@@ -257,9 +257,8 @@ I tested the deployed wedsite on several devices webbrowsers :
     * I went into my css file and noticed that I had set width and height to 100%. I changed those values and the footer was "visible" again
 - The paragraph in the contact page wasn't changing with my css demands. I had accidentally placed a # instead of a . infront of my class name for this paragraph.
 - I ended up changing the size for all images because they were taking too long to load. When I changed the images with the help of a website, I saved these images with the new name the website gave me, which had an space at the end of the name. So ofcourse it didn't work, I knew from the program that if you add a file with a space in it, it needs to be wrapped in " ". I ended up deleting the space.
-- some random bugs that I fixed with the help of [Stackoverflow](https://stackoverflow.com/) :
-    * The Lighthouse test was coming back a little lower and I didn't know why [this forum helped me realise it was my chrome extentions](https://stackoverflow.com/questions/54126343/how-to-fix-unchecked-runtime-lasterror-the-message-port-closed-before-a-respon)
-    * 
+- The Lighthouse test was coming back a little lower and I didn't know why [this forum helped me realise it was my chrome extentions](https://stackoverflow.com/questions/54126343/how-to-fix-unchecked-runtime-lasterror-the-message-port-closed-before-a-respon)
+- In my last validation I added some videos to the collab page and I had left a style in the iframe in the html file, so I deleted that and added it to the css file.
 
 <br>
 
