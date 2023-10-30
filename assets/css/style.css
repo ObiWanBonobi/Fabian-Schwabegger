@@ -192,6 +192,7 @@ div p a {
     width: 80%;
     height: 300px;
     border-radius: 15px;
+    border: none;
 }
 
 .picture-header-1 {
