@@ -27,7 +27,7 @@ h3 {
     letter-spacing: 3px;
 }
 
-/* Header */
+/* Header till line 94 */
 header {
     background-color: black;
     padding: 0rem 10%;
@@ -41,7 +41,7 @@ header {
     border-bottom: 2px solid rgb(26, 26, 26);
 }
 
-/* Will change logo name from FS on small screens to Fabien Schwabegger on big screens*/
+    /* Will change logo name from FS on small screens to Fabien Schwabegger on big screens*/
 .small-logo {
     display: inline-block;
 }
@@ -73,7 +73,7 @@ header a {
     border-radius: 6px;
 }
 
-/* Navbar styles with dropdown toggle */
+    /* Navbar styles with dropdown toggle */
 #menu-nav {
     position: absolute;
     background-color: black;
@@ -84,7 +84,7 @@ header a {
     top: 100%;
 }
 
-/* Nav toggle */
+    /* Nav toggle */
 #nav-toggle:checked~#menu-nav {
     display: block;
 }
@@ -93,7 +93,7 @@ header a {
     display: none;
 }
 
-/* Main content*/
+/* Main content till line 294. Includes styles for the main on all pages*/
 main {
     background-color: black;
     /* Make main element take up any surplus space to push footer down */
@@ -105,7 +105,7 @@ main {
     padding-top: 60px;
 }
 
-/* Hero section */
+    /* Hero section on index page */
 .hero-img {
     height: auto;
     width: 100%;
@@ -133,7 +133,7 @@ div p a {
     color: inherit;
 }
 
-/* Collab navigation */
+    /* Collaborations page navigation */
 #collab-nav-menu {
     position: absolute;
     width: 100px;
@@ -175,7 +175,7 @@ div p a {
     text-decoration: none;
 }
 
-/* Collaborations page */
+    /* Collaborations page main content */
 #collaborations-page {
     display: inline-block;
     padding-top: 16vmin;
@@ -220,7 +220,7 @@ div p a {
     margin-bottom: 50px;
 }
 
-/* Contact page*/
+    /* Contact page */
 #signup-form {
     padding: 15vmin 5% 0 5%;
 }
@@ -313,6 +313,7 @@ footer {
 
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Header navigation */
     #menu-nav {
         display: block;
         position: relative;
@@ -334,7 +335,7 @@ footer {
         display: none;
     }
 
-    /* Hero text */
+    /* Hero text index page */
     .cover-text {
         width: 75%;
         padding: 10px 15px;
@@ -390,7 +391,7 @@ footer {
         height: auto;
     }
 
-    /* Contact page*/
+    /* Contact page */
     #signup-form {
         font-size: 120%;
     }
@@ -428,6 +429,7 @@ footer {
 
 /* Media query: laptop size and larger (1255px and up) */
 @media screen and (min-width: 1255px) {
+    /* Header */
     header {
         padding: 0 2%;
     }
@@ -443,7 +445,7 @@ footer {
         padding: 15px 0;
     }
 
-    /* Hero text */
+    /* Hero text on index page */
     .cover-text {
         width: 1150px;
         min-height: 100px;
@@ -498,10 +500,8 @@ footer {
 /* Media query: monitor and larger (2560px and up) */
 @media screen and (min-width: 2560px) {
 
-    /* Hero text */
+    /* Hero text on index page */
     .cover-text {
         width: 1300px;
-        min-height: 100px;
-        padding-top: 15px;
     }
 }
