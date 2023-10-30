@@ -83,6 +83,10 @@ I've kept the design of the home page simple.
 - My train of thought was to have Fabian's designs to be the main attraction throughout the website. 
 - In the second paragraph, the collaborations bubble, I added a link to the collaborations page.
 
+<br>
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-index.png)
+
 ### Collaborations page
 
 - Same as the home page, I wanted to keep Fabians desings the main attraction. 
@@ -90,17 +94,29 @@ I've kept the design of the home page simple.
 - Every picture in each < div > is cropped to the same size, to keep the page looking clean.
 - I seperated some of the desings in different < div > so when they are shown on bigger screens, they stay together.
 
+<br>
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-collaborations.png)
+
 ### Contact page
 
 - The contact page includes a form that can be filled out to get into contact with Fabian.
 - It also includes a map of where Fabian is based.
 - After you press the send button, you will be taken to a new page that says thank you.
 
+<br>
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-contact.png)
+
 ### Contact send page
 
 - This page will only show after you filled out the contact form.
 - It has a short thank you message with another desing.
 - It was the same layout as the other pages so you can easily navigate back to the other pages.
+
+<br>
+
+![Colour Scheme](assets/images/readme_images/am-i-responsive-contact-send.png)
 
 <br>
 
@@ -129,18 +145,6 @@ I want to add javascript to all pages and make the whole site more interactive.
 I kept the colour scheme very simple, because I wanted Fabian's designs to pop out.
 
 ![Colour Scheme](assets/images/readme_images/color-scheme.png)
-
-<br>
-
-### Am I responsive
-
-![Colour Scheme](assets/images/readme_images/am-i-responsive-index.png)
-
-![Colour Scheme](assets/images/readme_images/am-i-responsive-collaborations.png)
-
-![Colour Scheme](assets/images/readme_images/am-i-responsive-contact.png)
-
-![Colour Scheme](assets/images/readme_images/am-i-responsive-contact-send.png)
 
 <br>
 
