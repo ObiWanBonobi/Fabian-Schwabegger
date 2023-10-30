@@ -188,6 +188,12 @@ div p a {
     padding: 3px;
 }
 
+#collaborations-page iframe {
+    width: 80%;
+    height: 300px;
+    border-radius: 15px;
+}
+
 .picture-header-1 {
     padding-bottom: 30px;
     font-size: 75%;
@@ -358,6 +364,11 @@ footer {
         width: 45%;
     }
 
+    #collaborations-page iframe {
+        width: 80%;
+        height: 400px;
+    }
+
     .picture-header-1,
     .picture-header-2,
     .picture-header-3,
@@ -451,6 +462,11 @@ footer {
 
     #collaborations-page {
         padding-top: 120px;
+    }
+
+    #collaborations-page iframe {
+        width: 45%;
+        height: 600px;
     }
 
     .picture-header-1,
