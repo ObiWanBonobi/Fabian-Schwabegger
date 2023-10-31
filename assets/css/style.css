@@ -312,6 +312,7 @@ footer {
 }
 
 /* Media query: tablet and larger (768px and up) */
+
 @media screen and (min-width: 768px) {
     /* Header navigation */
     #menu-nav {
@@ -428,6 +429,7 @@ footer {
 }
 
 /* Media query: laptop size and larger (1255px and up) */
+
 @media screen and (min-width: 1255px) {
     /* Header */
     header {
@@ -498,6 +500,7 @@ footer {
 }
 
 /* Media query: monitor and larger (2560px and up) */
+
 @media screen and (min-width: 2560px) {
 
     /* Hero text on index page */

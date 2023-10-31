@@ -270,18 +270,30 @@ I tested the deployed wedsite on several devices webbrowsers :
 
 <br>
 
+# Deployment
+
+The website was deployed to my account on GitHub pages. The steps I took to deploy the website went as followed: 
+  - Go to my [GitHub repository called PP1](https://github.com/ObiWanBonobi/PP1)
+  - In there, I navigated to the Settings tab 
+  - From the source section drop-down menu, I selected the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP1/index.html)
+
+
 # Credits
 
 - <b>Layout, contact form and code</b> : the navigation and footer layout, the contact form code and some of the basic code I partly got from the Code Institute learning program and projects, [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) and Coding Coffee House
-- <b>README</b>> : a bit of the layout from the Code Institute Coding club sample, and from Siobhan Gorman's project [Sourdough Bakes](https://github.com/siobhanlgorman/Sourdough-Bakes)
+- <b>README</b> : a bit of the layout from the Code Institute Coding club sample, and the [Love Running project](https://github.com/Code-Institute-Solutions/readme-template), and from Siobhan Gorman's project [Sourdough Bakes](https://github.com/siobhanlgorman/Sourdough-Bakes)
 - <b>README funtions</b> : got some ideas from cosmiccoincidence's [README](https://github.com/RE-SS3D/.github/blob/main/profile/README.md)
 - <b>Images</b> : All images come directly from Fabin Schwabegger
 - <b>Gif</b> : I got the gif in the readme idea from stumbling upon [this website](https://medium.com/@alenanikulina0/make-your-readme-better-with-images-and-gifs-b141bd54bff3)
 
-- <b>most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
-
 - <b>Bug</b> : with the help of my facilitator David Calikes and fellow student Alihan Teker, we fixed a bug.
 
 - <b>Learning online</b> : 
-    * [This forum](https://stackoverflow.com/questions/4657148/how-to-make-a-div-grow-with-content) helped me understand the display funtion a little better.
+    * [This website](https://developer.mozilla.org/en-US/docs/Web/CSS/display) helped me understand the display funtion a little better.
     * [This forum](https://stackoverflow.com/questions/42273295/how-to-apply-linear-gradient-on-an-input-on-its-border-bottom-only) helped me how to use gradiant.
+    * [This website](https://www.w3schools.com/cssref/pr_dim_max-width.php#:~:text=The%20max%2Dwidth%20property%20defines,width%20property%20has%20no%20effect.) helped me understand a little more how max-width/ -height works.
+
+- <b>Most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
