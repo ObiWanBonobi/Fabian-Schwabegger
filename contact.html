@@ -28,7 +28,7 @@
             <h1 class="small-logo">FS</h1>
             <h1 class="big-logo">Fabian Schwabegger</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <input type="checkbox" id="nav-toggle" name="Navigation toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav id="menu-nav">
             <ul id="menu">
@@ -42,7 +42,8 @@
     <!--Main Section-->
     <main>
         <section>
-            <form id="signup-form" method="get" action="contact-send.html">
+            <!-- Fill out form for contact with Fabian -->
+            <form id="signup-form" method="get" action="contact-send.html" aria-label="Contact form">
                 <h2>Contact Fabian Schwabegger</h2>
                 <br>
                 <p class="form_paragraph">
@@ -50,18 +51,17 @@
                     anything else, please complete the form below and he will be in touch shortly.
                 </p>
                 <br>
-                <!-- Fill out form for contact with Fabian -->
-                <input type="text" placeholder="Full Name" name="full_name" class="text-input" required>
+                <input type="text" placeholder="Full Name" name="Full name" class="text-input" required>
                 <br>
-                <input type="email" placeholder="Email" name="email" class="text-input" required>
+                <input type="email" placeholder="Email" name="Email" class="text-input" required>
                 <br>
-                <input type="text" placeholder="Subject" name="subject" class="text-input" required>
+                <input type="text" placeholder="Subject" name="Subject" class="text-input" required>
                 <br>
-                <textarea placeholder="Message" name="message" class="text-input" rows="10" cols="80"
+                <textarea placeholder="Message" name="Message" class="text-input" rows="10" cols="80"
                     required></textarea>
                 <br>
-                <button type="reset" id="reset_button">Reset</button>
-                <button type="submit" id="send_button">Send</button>
+                <button type="reset" id="reset_button" aria-label="Reset button">Reset</button>
+                <button type="submit" id="send_button" aria-label="Send button">Send</button>
             </form>
         </section>
         <br>
@@ -69,7 +69,7 @@
         <div>
             <p class="form_paragraph"><strong>Based in Bramberg am Wildkogel, however I am often in Vienna.</strong></p>
             <br>
-            <iframe id="map" title="Google Maps"
+            <iframe id="map" title="Google Maps" aria-label="Google map of where Fabian is based"
                 src="https://www.google.com/maps/embed/v1/place?q=Bramberg+am+Wildkogel,+Austria&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
             </iframe>
         </div>

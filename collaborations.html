@@ -28,7 +28,7 @@
             <h1 class="small-logo">FS</h1>
             <h1 class="big-logo">Fabian Schwabegger</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <input type="checkbox" id="nav-toggle" name="Navigation toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav id="menu-nav">
             <ul id="menu">
@@ -42,9 +42,10 @@
     <!--Main Section-->
     <main id="collaborations-page">
         <!-- Icon with a navigation inside -->
-        <aside id="nav-menu">
-            <input type="checkbox" id="collab-menu" name="nav-toggle">
-            <label for="collab-menu"><i class="fa-solid fa-turn-down" style="color: #828282;"></i></label>
+        <aside id="nav-menu" aria-label="Collaborations page navigation">
+            <input type="checkbox" id="collab-menu">
+            <label for="collab-menu" aria-label="Button for collaborations navigation"><i class="fa-solid fa-turn-down"
+                    style="color: #828282;"></i></label>
             <nav id="collab-nav-menu">
                 <ul id="collab-nav">
                     <li><a href="#fabio">Fabio Wibmer</a></li>

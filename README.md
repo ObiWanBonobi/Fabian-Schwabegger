@@ -288,12 +288,11 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP1/index.htm
 - <b>README funtions</b> : got some ideas from cosmiccoincidence's [README](https://github.com/RE-SS3D/.github/blob/main/profile/README.md)
 - <b>Images</b> : All images come directly from Fabin Schwabegger
 - <b>Gif</b> : I got the gif in the readme idea from stumbling upon [this website](https://medium.com/@alenanikulina0/make-your-readme-better-with-images-and-gifs-b141bd54bff3)
-
-- <b>Bug</b> : with the help of my facilitator David Calikes and fellow student Alihan Teker, we fixed a bug.
-
+- <b>Bug</b> : with the help of my facilitator [David Calikes](https://github.com/davidcalikes) and fellow student [Alihan Teker](https://github.com/Tekali7), we fixed a bug.
 - <b>Learning online</b> : 
     * [This website](https://developer.mozilla.org/en-US/docs/Web/CSS/display) helped me understand the display funtion a little better.
     * [This forum](https://stackoverflow.com/questions/42273295/how-to-apply-linear-gradient-on-an-input-on-its-border-bottom-only) helped me how to use gradiant.
     * [This website](https://www.w3schools.com/cssref/pr_dim_max-width.php#:~:text=The%20max%2Dwidth%20property%20defines,width%20property%20has%20no%20effect.) helped me understand a little more how max-width/ -height works.
+    * [This forum](https://stackoverflow.com/questions/53769927/is-an-aria-label-needed-for-basic-all-link-tags#:~:text=The%20aria%2Dlabel%20attribute%20on,alt%20attribute%20in%20image%20links.) and [this forum](https://stackoverflow.com/questions/73140303/is-using-a-label-enough-or-should-i-add-aria-attributes) helped me understand aria-label better.
 
 - <b>Most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
