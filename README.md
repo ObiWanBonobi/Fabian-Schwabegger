@@ -2,7 +2,7 @@
 
 ![Home page gif](assets/gif/Home-page.gif)
 
-[Click on this link to visit the website](https://obiwanbonobi.github.io/PP1/)
+[Click on this link to visit the website](https://obiwanbonobi.github.io/Fabian-Schwabegger/)
 
 <br>
 
@@ -273,12 +273,12 @@ I tested the deployed wedsite on several devices webbrowsers :
 # Deployment
 
 The website was deployed to my account on GitHub pages. The steps I took to deploy the website went as followed: 
-  - Go to my [GitHub repository called PP1](https://github.com/ObiWanBonobi/PP1)
+  - Go to my [GitHub repository called Fabian-Schwabegger](https://github.com/ObiWanBonobi/Fabian-Schwabegger)
   - In there, I navigated to the Settings tab 
   - From the source section drop-down menu, I selected the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP1/index.html)
+You can see deployed wedsite [here](https://obiwanbonobi.github.io/Fabian-Schwabegger/index.html)
 
 
 # Credits
